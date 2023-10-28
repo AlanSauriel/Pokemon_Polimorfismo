@@ -8,9 +8,9 @@ public class Mewtwo extends Pokemon {
         
         Movimiento[] movimientos = new Movimiento[4];
         movimientos[0] = listaMovimientos.buscarMovimientoPorNombre("Confusion");
-        movimientos[1] = listaMovimientos.buscarMovimientoPorNombre("Poder Pasado");
-        movimientos[2] = listaMovimientos.buscarMovimientoPorNombre("Especial");
-        movimientos[3] = listaMovimientos.buscarMovimientoPorNombre("Psiquico");
+        movimientos[1] = listaMovimientos.buscarMovimientoPorNombre("Metoros");
+        movimientos[2] = listaMovimientos.buscarMovimientoPorNombre("Poder Pasado");
+        movimientos[3] = listaMovimientos.buscarMovimientoPorNombre("Psicorte");
         
         setMovimientos(movimientos);
     }
