@@ -1,5 +1,0 @@
-package pokemon_polimorfismo;
-
-public enum Ataques {
-    DeEStado, Fisica, Especial
-}
