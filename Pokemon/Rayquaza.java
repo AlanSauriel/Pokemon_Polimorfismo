@@ -2,15 +2,15 @@ package pokemon.pokemon;
 
 public class Articuno extends Pokemon {
     public Articuno(Tipo tipo, int PS, int Ataque, int Defensa, int AtaqueEspecial, int DefensaEspecial, int Velocidad, int Nivel) {
-        super(Tipo.HIELO.VOLADOR, 90, 85, 100, 95, 125, 85,10);
+        super(Tipo.DRAGON.VOLADOR, 105, 150, 90, 150, 90, 95,10);
 
         ListaMovimientos listaMovimientos = new ListaMovimientos();
 
         Movimiento[] movimientos = new Movimiento[4];
-        movimientos[0] = listaMovimientos.buscarMovimientoPorNombre("Tornado");
-        movimientos[1] = listaMovimientos.buscarMovimientoPorNombre("Nieve Polvo");
-        movimientos[2] = listaMovimientos.buscarMovimientoPorNombre("Esquirla Helada");
-        movimientos[3] = listaMovimientos.buscarMovimientoPorNombre("Liofilizacion");
+        movimientos[0] = listaMovimientos.buscarMovimientoPorNombre("Ciclon");
+        movimientos[1] = listaMovimientos.buscarMovimientoPorNombre("Tajo aereo");
+        movimientos[2] = listaMovimientos.buscarMovimientoPorNombre("Ascenso Draco");
+        movimientos[3] = listaMovimientos.buscarMovimientoPorNombre("Triturar");
 
         setMovimientos(movimientos);
     }
